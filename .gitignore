@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# data
+data/
+!data/README.md
+
+# model artifacts + outputs
+models/
+reports/
+outputs/
+*.pkl
+*.joblib
+*.parquet
+*.feather
+
+# env
+.env
+*.env
+
+# logs
+*.log
