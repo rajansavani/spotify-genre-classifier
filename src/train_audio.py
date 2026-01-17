@@ -64,7 +64,6 @@ def train_audio_baselines(sample_n: int | None = None) -> None:
     # model 1: logistic regression
     lr = LogisticRegression(
         max_iter=2000,
-        n_jobs=-1,
         class_weight="balanced",
     )
     lr_pipe = Pipeline(steps=[("prep", preprocessor), ("model", lr)])
