@@ -1,0 +1,20 @@
+[
+  {
+    "model": "audio_xgboost",
+    "macro_f1": 0.44570800899355856,
+    "weighted_f1": 0.5518220876281297,
+    "accuracy": 0.575727582292849
+  },
+  {
+    "model": "lyrics_logreg",
+    "macro_f1": 0.5012913858898288,
+    "weighted_f1": 0.5445550682893557,
+    "accuracy": 0.5350283768444949
+  },
+  {
+    "model": "fusion_logreg",
+    "macro_f1": 0.549428606086398,
+    "weighted_f1": 0.608018630365507,
+    "accuracy": 0.601716231555051
+  }
+]

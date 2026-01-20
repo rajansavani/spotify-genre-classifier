@@ -212,12 +212,21 @@ data/
 
 # model artifacts + outputs
 models/
+!models/README.md
 reports/
 outputs/
 *.pkl
 *.joblib
 *.parquet
 *.feather
+
+# keep presentation figures for the README
+!reports/
+!reports/figures/
+!reports/figures/**
+!reports/figures/**/*.png
+!reports/figures/**/*.jpg
+!reports/figures/**/*.jpeg
 
 # env
 .env
